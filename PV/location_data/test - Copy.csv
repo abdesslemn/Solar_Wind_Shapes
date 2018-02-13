@@ -1,0 +1,3 @@
+project name,zone,state,latitude,longitude,ac capacity (mw),energy (mwh),inverter loading ratio,tilt,tracking type
+project1,CAISO,CA,37.44,-122.1292,100,210240,1.3,30,0
+project2,CAISO,CA,37.44,-122.1292,100,210240,1.3,30,2

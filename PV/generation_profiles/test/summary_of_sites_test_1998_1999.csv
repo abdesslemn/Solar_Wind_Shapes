@@ -1,0 +1,3 @@
+project name,zone,state,latitude,longitude,ac capacity (mw),energy (mwh),inverter loading ratio,tilt,tracking type,shape capacity (MW),shape energy (MWh),target CF,shape CF
+project1,CAISO,CA,37.44,-122.1292,100,210240,1.3,30,0,100,200267.416615,0.24,0.228615772391
+project2,CAISO,CA,37.44,-122.1292,100,210240,1.3,30,2,100,248461.40667,0.24,0.283631742775
