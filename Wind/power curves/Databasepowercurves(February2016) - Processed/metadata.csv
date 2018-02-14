@@ -1,0 +1,241 @@
+turbine_name,cut_in_wind_speed,cut_out_wind_speed,rotor_diameter,max_power
+AAER 1500-70_70m_1500kw(MT),3,20,70,1.5
+AAER_A-1000-S_54m_1100kw(MT),3,20,54,1.037
+AAER_A-1500-77_77m_1500kw(MT),3,20,77,1.5
+AAER_A-2000-71_71m_2000kw(MT),4,25,71,2.001
+AAER_A-2000-80_80m_2000kw(MT),3.5,20,80,2.001
+AAER_A-2000-84_84m_2000kw(MT),3,20,84,2.001
+AAER_A_1650 _77m _1650kW Class IIa (MT),3,20,77,1.651
+AAER_A_1650 _82m _1650kW Class IIIa (MT),3,20,82,1.651
+AWP3.6(Grid tie)_3.6m_1.6kw(MG),3,20,3,0.00132
+Aeolos 18m 50kW (MG),3,25,18,0.0537
+Aircon10S 7.54m 10kW (MCS certification),3.5,25,7,0.01099
+Ampair 600-230 1.7m (NaREC test),3,20,1,0.00027
+Ampair 6000 5.5m 6kw,3.5,20,5,0.006
+Ampair_600-230_1.7m_0.7kw(MG),3,20,1,0.000732
+Anelion SW3.5GT 5kW (MG),3,20,3,0.004
+Atlantic Orient AOC 15-50 15m 50kw 50Hz(MG),4,22,15,0.053841
+Atlantic Orient AOC 15-50 15m 50kw 60Hz(MG),4,22,15,0.065435
+Atlantic Orient AOC 15-50 15m 50kw 60Hz(NERL data),4,22,15,0.06507
+Aventa AV-7 12.9m 6.5kW (MG),2,14,12,0.006253
+BE-Wind EOW-300 twin VAWT(MG),2,25,2,0.00275
+Bergey BWCXL1_2.5m_1kw(MG),2.5,20,2,0.001234
+Bergey Excel_10_7m_10kw (MCS),2.5,30,7,0.012546
+Bonus 82.4m 2.3mw(MG),4,25,82,2.311111
+Bonus_MkIV_44m_600kW(MG),3,25,44,0.609
+C&F Green Energy CF11 9m 11kW (MCS),2.5,25,9,0.0111
+C&F Green Energy CF15 11.1m 15kW (MCS),2,25,11,0.01632
+C&F Green Energy CF15e 13.1m 15kW (MG),2,25,13,0.0152
+C&F Green Energy CF20 13.1m 20kW (MCS),2.5,25,13,0.0213
+C&F Green Energy CF50 20m 50kw (MG),2.5,30,20,0.052
+C&F Green Energy CF6d 6m 6kW (MG),2.5,30,6,0.006
+C&F Green Energy CF6e 8m 6kW (MG),2,25,8,0.006
+Caravel 2.5kW 3.5m (MG),3.5,25,3,0.0024
+ClipperLibertyC100_100m_2500kw(MG),3,25,100,2.5
+ClipperLibertyC89_89m_2500kw(MG),3,25,89,2.5
+ClipperLibertyC93_93m_2500kw(MG),3,25,93,2.5
+ClipperLibertyC96_96m_2500kw(MG),3,25,96,2.5
+Coemi G-3 15.2m 50kW (MG),2.5,26,15,0.0574
+Coemi Skywing G-3 20kW 15m (MG),3,20,15,0.0215
+Deimos DT2160 21m 60lw (MG),2.5,20,21,0.06
+EWT DirectWind 54m 250kW (MG),2.5,25,54,0.25
+EWT Directwind 52m 500kW (MT),2.5,25,52,0.5
+EWT Directwind 54m 500kW (MT),2.5,25,54,0.5
+EWT Directwind 90m 2mW (MG),3.5,25,90,2
+EWT Directwind 96m 2mW (MT),3.5,25,96,2
+Earth-Tech ET500_2.5m_500w (MOD),2.5,25,2,0.000698
+Electriawind Garbi 150kw 28m (MT),2.5,20,28,0.15
+Electriawind Garbi 200kw 28m (MT),2.5,20,28,0.2
+Ely50 20.7m (MT),2.5,25,20,0.0505
+Endurance E-3120 19.2m 50Kw (MT),3.5,25,19,0.0593
+Endurance E-4660 23.5m 85Kw (MG),3,25,23,0.0858
+Endurance E-X29 29.1m 225Kw (MG),4,25,29,0.229
+Endurance E-X30 30.1m 225Kw (MG),4,25,30,0.2338
+Endurance E-X33 33.1m 225Kw (MG),3.5,25,33,0.23
+Endurance G-3120 19.2m 35Kw (MT),3.5,25,19,0.035
+Endurance S-343 6.4m 5Kw (MT),4,24,6,0.005424
+Enercon E-126_127m_7500kW (MT),2.5,25,127,7.5
+Enercon E101_101m _3000kw(MT),2.5,25,101,3.05
+Enercon E33_33.4m _330kw(MT),2.5,25,33,0.335
+Enercon E40 _500kw(MT),2.5,25,40,0.5
+Enercon E44_44m _900kw(MT),1,25,44,0.91
+Enercon E48_48m _800kw(MT),1.5,25,48,0.81
+Enercon E53_52.9m _800kw(MT),1.5,25,52,0.81
+Enercon E66_1870kw(MG),2,25,66,1.87
+Enercon E66_2000kw(MG),2,25,66,2.005
+Enercon E70_71m _2300kw(MT),1.5,25,71,2.31
+Enercon E82_82m _2000kw(MT),1.5,25,82,2.05
+Enercon E82_82m _2300kw(MT),2.5,25,82,2.35
+Enercon E82_82m _3000kw(MT),2.5,25,82,3.02
+Energie PGE 20_35 19.2m 35kW (MT),3,25,19,0.0364
+Energie PGE 20_50 19.2m 50kW (MT),3.5,25,19,0.0535
+Ennera Windera S 4.36m 3.2kW (Certification test),3,25,4,0.003129
+Eocycle EO25_12 12.6m 25kW (MT),3,25,12,0.02764
+Evance R9000 5.5m 5kw (MCS),3,30,5,0.005242
+Evoco 10kW 9.7m (MG),2.5,30,9,0.01
+F3 Energy 50kW VAWT,4,30,12,0.057
+Flowind 19m 300kW VAWT (MG),5,25,20,0.3
+Fortis Passaat 3.12m 1.4kW (MG),3,25,3,0.0014
+Fortis_Montana_5000_5m_5kw(Intertek),2.5,25,5,0.00448
+Future_Energy_Airforce_10_8m_13kW (MG),2.5,25,8,0.013
+Futurenergy FE1012U 1.8m 1kw (MG),3,20,1,0.0007
+Futurenergy FE1048U 1.8m 1kw (MG),3,20,1,0.0015
+Futurenergy FE1048U 1.8m 1kw (User test),3,25,1,0.0015
+GE 1.5SLE 77m 1.5mW (MG),3.5,25,77,1.5
+GE 1.5XLE 82.5m 1.5mW (MG),3.5,20,82,1.5
+Gaia 13m 11kw (US NREL table),3,25,13,0.015
+Gaia13m_11kw(MG),3,25,13,0.01179
+Gamesa_G128_4.5mw(MT),3,27,128,4.5
+Gamesa_G52 _850kw(MT),3.5,25,52,0.85
+Gamesa_G58 _850kw(MT),2.5,21,58,0.85
+Gamesa_G80 _2.0mw(MT),3.5,25,80,2
+Gamesa_G83_2.0mw(MT),3.5,25,83,2
+Gamesa_G87_2.0mw(MT),3.5,25,87,2
+Gamesa_G90_2.0mw(MT),2.5,21,90,2
+General Electric 1.6mW 100m (MG),3.5,25,100,1.6
+General Electric1.5sl_77m_1500kw(MG),3.5,20,77,1.5
+General Electric2.5xl_100m_2500kw(MG),3.5,25,100,2.5
+General Electric3.6sl_111m_3600kw(MG),3.5,27,111,3.6
+HEA Energy Ball V100 1.1m 0.6kW (MG),2,22,1,0.0005
+HEA Energy Ball V200 1.98m 2.5kW (MG),3,22,2,0.00223
+HY5_AD5.5 (MCS Certificate),3.5,25,5,0.00485
+Harbon HWT60 15.93m 60kw (MT),3,25,15,0.0587
+Hummer 2.7m 0.5kw (MG),3,20,2,0.000989
+Hummer 3.1m 1kw (MG),3,20,3,0.002
+Hummer 3.8m 2kw (MG),3,25,3,0.0032
+Hummer 6.4m 5kw (MG),2.5,20,6,0.00775
+Hummer 8m 10kw (MG),3,25,8,0.01488
+Joliet Cyclone 5 6.4m 5kw(MOD),2.5,20,6,0.0064
+Joliet_Cyclone 10_8m_10kw(MOD),2.5,20,8,0.01302
+Joliet_Cyclone 20_10m_20kw(MOD),2.5,20,10,0.02593
+Joliet_Cyclone1_ 2.7m_1kw(MG),2.5,20,2,0.00164
+Joliet_Cyclone2_3.2m_2.3(MG)kw,2.5,20,3,0.0029
+Joliet_Cyclone3_4.5m_3kw(MG),2.5,20,4,0.00396
+Joliet_Ultra_X900_3m_1kw(MG),2.5,20,3,0.00166
+Kestrel_e230_2.3m_0.8kw(MT),2.5,20,2,0.000815
+Kestrel_e300i_3m_1kw(MG),2.5,25,3,0.0011
+Kestrel_e400i_4m_3kw(MG),3,25,4,0.0032
+Kestrel_e400nb_4m_3.5kw(MCS),3,19,4,0.00297
+Kingspan KW3 3.8m 2.5kW (MG),3,30,3,0.0029
+Kingspan KW6 5.6m 6kW (US SWCC),3.5,30,5,0.006136
+Leitwind LTW101 3mW (MT),2.5,25,100,3
+Leitwind LTW70 1.7mW (MT),3,25,70,1.7
+Leitwind LTW70 2mW (MT),3,25,70,2
+Leitwind LTW77 1.5mW (MT),3,25,77,1.5
+Leitwind LTW80 1.5mW (MT),3,25,80,1.5
+Leitwind LTW80 1.8mW (MT),3,25,80,1.8
+Libellula 1.8m 55kW (MT),3,25,18,0.055
+MarlecFM1803-2-1.8m(MG),3,30,1,0.00072
+Nordex_N100_99.8m_2500kw(MT),3,20,99,2.5
+Nordex_N60_1.3mw(MG),3.5,25,60,1.344
+Nordex_N70_1.5mw(MG),3.5,25,70,1.5
+Nordex_N90_90m_2500kw(MG),3,25,90,2.514
+Nordex_S70_70m_1500kw(MT),3,25,70,1.5
+Nordex_S77_77m_1500kw(MT),3,25,77,1.5
+Nordic 1000 54m 1Mw (MT),4,25,54,1.0114
+Northern Power_100_21m_100kw(MT),2.5,25,21,0.1008
+Northern Power_100_24m_100kw(MT),2.5,25,24,0.0955
+Pinnacle Frigate 10kw  7m (MG),4,30,7,0.0104
+Pinnacle Frigate 7.5kw  6m (MG),3.5,30,6,0.0077
+Pitchwind 14m 30kW (MT),2,30,14,0.03
+PowerWind 56-500 (MT),3,25,56,0.5
+QuietRevolution qr5 V2 VAWT Grid Model (MG),4,19,4,0.00622
+Redriven 12.3m 20kw(MG),2,18,12,0.022159
+Redriven 12.3m 20kw(MOD),2,18,12,0.022159
+Redriven 14.3m 50kw(MG),2,18,14,0.0553
+Redriven 14.3m 50kw(MOD),2,18,14,0.0553
+Redriven 3.8m 3kw(MG),2,18,3,0.003327
+Redriven 3.8m 3kw(MOD),2,18,3,0.003327
+Redriven 6.5m 5kw (MG),2,18,6,0.005548
+Redriven 6.5m 5kw (MOD),2,18,6,0.00555
+RepowerMM82_82m_2Mw(MG),3.5,25,82,2
+RepowerMM92_92.5m_2Mw(MG),3,25,92,2
+Repower_126m_5Mw(MG),3.5,25,126,5
+Samprey Mistral_2m_1.15kw(MG),3,25,2,0.00105
+Samprey Wren_1m_0.3kw(MG),3,25,1,0.00028
+Samrey Merlin_3.5m_3kw(MG),3,25,3,0.0027
+Scirocco E5.6m-6kw(MT),2.5,25,5,0.006
+Senvion 3.2M114m (MG),3,22,114,3.2
+Senvion 3.4M104m (MG),3.5,25,114,3.4
+Senvion 3.4M114m (MG),3,22,114,3.4
+Senvion 3M122 (MG),3,22,122,3
+Senvion 6.2M126 (MG),3.5,30,126,6.2
+Senvion 6.2M152 (MG),3.5,30,152,6.15
+Senvion MM100 2mW (MG),3,22,100,2.02
+Senvion MM82 2mW (MG),3.5,25,82,2
+Senvion MM92 2mW (MG),3,24,92,2.02
+Siemens SWT-2.3mW-101m (MG),3.5,25,101,2.3
+Siemens SWT-2.3mW-93m (MG),3.5,25,93,2.3
+Siemens SWT-3.6mW-107m (MG),3.5,25,107,3.6
+Siemens SWT-3.6mW-120m (MG),3.5,25,120,3.6
+Skystream_3.7m_1.9kw(MG),3,25,3,0.00263
+Skystream_3.7m_1.9kw(UK MCS),3,25,3,0.002425
+Sonkyo Windspot 1.5kW 4.05m (MG),3,20,4,0.00168
+Sonkyo Windspot 3.5kW 4.05m (Certification test graph),3,20,4,0.00417
+Sonkyo Windspot 3.5kW 4.05m (MT),3,20,4,0.00417
+SuzlonS64_1250_64m_1250kw(MT),3,25,64,1.25
+SuzlonS64_950_64m_950kw(MT),2.5,25,64,0.95
+SuzlonS66_1250_66m_1250kw(MT),2.5,25,66,1.25
+SuzlonS88_2100_88m_2100kw(MT),4,25,88,2.1
+Travere 3.6m 3kW(Wineur table)),3,30,3,0.003
+Travere 6m 2.1kW(Wineur table)),2.5,30,6,0.0021
+TrueNorthPower Arrow_2m_kw(MG),2.5,22,2,0.00123
+Turby VAWT 2.6m equiv 2.5kW (MG),3.5,14,2,0.0025
+Turby VAWT 2.6m equiv 2.5kW (Table),3.5,14,2,0.0025
+Urban Green Energy eddy 1.8m 0.6kW (MG),3.5,25,1,0.00065
+Urban Green Energy eddyGT VAWT 2.4m 1.0kW (MG),3.5,25,2,0.00124
+UrbanGreenEnergy VAWT UGE-4k 4m 4kW (MG),3.5,25,4,0.00435
+Vensys 100m 2.5mW (MT),3,25,100,2.5
+Vensys 109m 2.5mW (MT),3,25,109,2.5
+Vensys 112m 2.5mW (MT),3,25,112,2.5
+Vensys 70m 1.5mW (MT),3,25,70,1.5
+Vensys 77m 1.5mW (MT),3,22,77,1.5
+Vensys 82m 1.5mW (MT),3,22,82,1.5
+VergnetGEV MP C 30m 275kW (MT),3.5,25,30,0.275
+VergnetGEV MP C 32m 275kW (MT),3.5,25,32,0.275
+VergnetGEV MP R 30m 275kW (MT),3.5,25,30,0.275
+VergnetGEV MP R 32m 275kW (MT),3.5,25,32,0.275
+VergnetGEVHP(104.4dba)_62m_1000kw(MT),2.5,25,62,1
+Vesta V164 7mW Offshore (MG),3.5,25,164,7
+Vesta V90 3mW 102.0dB(A) (MT),3.5,25,90,2.532
+Vesta V90 3mW 104.2dB(A) (MT),3.5,25,90,2.848
+Vesta V90 3mW 106.7dB(A) (MT),3.5,25,90,3
+Vesta V90 3mW 107.8dB(A) (MT),3.5,25,90,3
+Vesta V90 3mW 109.4dB(A) (MT),3.5,25,90,3
+Vestas 112m 3mW (MT),3,25,112,3.075
+Vestas 80m 2mW 101.0dB(A) (MG),3.5,25,80,2
+Vestas 80m 2mW 102.0dB(A) (MG),3.5,25,80,2
+Vestas 80m 2mW 102.5dB(A) (MG),3.5,25,80,2
+Vestas 80m 2mW 104.0dB(A) (MG),3.5,25,80,2
+Vestas 80m 2mW 105.1dB(A) (MG),3.5,25,80,2
+Vestas 80m 2mW 106.4dB(A) Offshore (MG),3.5,25,80,2
+Vestas V-90 GridStreamer 2mW (MG),3.5,25,90,2
+Vestas V27-225kw(MT),3.5,25,27,0.225
+Vestas V39-500kw(MG),3.5,25,39,0.5
+Vestas V42 600kW (Table),4,25,42,0.6
+Vestas V47 660kW (Table),4,25,47,0.6
+Vestas V52 850kW 100dbA (MG),3.5,25,52,0.85
+Vestas V52 850kW 104dbA (MT),3.5,25,52,0.85
+Vestas_V82_1.65mw(MG),3.5,25,82,1.65
+Vestas_V82_1.65mw(MT),3.5,25,82,1.65
+Westwind 10.2m 20kw(UK MCS),2.5,20,10,0.02275
+Westwind 3.7m 3kw(MG),3.5,20,3,0.0031
+Westwind 5.5m 6kW (UK MCS),2,25,5,0.00611
+Westwind 6.4m 10kw(UK MCS),2.5,25,6,0.01148
+Whisper H40_2.1m_0.8kw(MG),3.5,30,2,0.000914
+Wind Energy Solutions18_18m_80kw(MT),3.5,25,18,0.0833
+Wind Energy Solutions30_30m_250kw(MT),2.5,25,30,0.25
+Wind Energy Solutions_5m_2.5kw_Tulipo(MT),2.5,20,5,0.002625
+WindEnergyLebanon 1mW 54.4m,3.5,25,54,1.048
+WindEnergyLebanon 5kW 6m,3,20,6,0.00637
+WindEnergyLebanon 750kW 50m(Class1),3,25,50,0.752663
+WindEnergyLebanon 750kW 54m(Class2),3,25,54,0.75
+WindEnergyLebanon 750kW 57m(Class3),3,25,57,0.75
+Windspire 1.2kW VAWT (MG),4,14,3,0.001605
+Windspot 7.5kW 6.3m (MG),3,20,6,0.00802
+Xzeres 442SR 7.2m 12kW (MG),2.5,20,7,0.012
+Zephyr Airdolphin PRO 1.8m 1kW (MG),3,25,1,0.001523
+NREL_1,3,25,100,2
+NREL_2,3,25,100,2
+NREL_3,3,22,100,2
+NREL_offshore,3,25,100,2

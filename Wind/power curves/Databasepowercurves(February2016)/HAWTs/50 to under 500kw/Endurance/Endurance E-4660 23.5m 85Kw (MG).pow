@@ -1,0 +1,49 @@
+"Endurance E4660 85kW 23.5m (Manafacturer's graph)"
+"23"
+"5"
+"25"
+"3"
+"0"
+"0"
+"0"
+"2.3"
+"12.0"
+"22.8"
+"37.5"
+"51.9"
+"61.7"
+"71.5"
+"77.4"
+"82.3"
+"84.2"
+"85.4"
+"85.6"
+"84.2"
+"85.4"
+"85.8"
+"85.0"
+"85.0"
+"85.0"
+"85.0"
+"85.0"
+"85.0"
+"85.0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(Mar 2015 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.endurancewindpower.com
+
+3-bladed downwind turbine. 
+
+Tower heights from 24.8m and 36.6m.
+
+Class IIA
+
+Manufacturer's graph extends only to 18 m/s so the values from 19 to 25 m/s have been taken as constant at 85kW.
+
+No details given about testing procedure to obtain power curve but power coefficients (efficiencies) are quite plausible for a turbine of this size.
+
+The manufacturer's annual energy production figures agree closely with the figures calculated by the WindPower program."

@@ -1,0 +1,2 @@
+project name,zone,state,latitude,longitude,target ac capacity (mw),target energy (mwh),share,turbine name,hub height (m),offshore,shape capacity (mw),shape energy (mwh),target cf,shape cf,wind toolkit cf
+ProjectTest,ZoneTest,CA,40,-100,32,80000,1,,80,False,32.0,120838.71875,0.285192790326,0.430779142247,0.430779142247

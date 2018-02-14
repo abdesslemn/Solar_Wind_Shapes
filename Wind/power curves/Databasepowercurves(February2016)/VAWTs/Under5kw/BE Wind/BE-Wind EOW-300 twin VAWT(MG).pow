@@ -1,0 +1,45 @@
+"BE-Wind EOW-300 twin VAWT (Manufacturer's graph)"
+"2"
+"5"
+"25"
+"2"
+"0"
+"0"
+"0.04"
+"0.10"
+"0.21"
+"0.36"
+"0.57"
+"0.74"
+"0.90"
+"1.06"
+"1.23"
+"1.42"
+"1.60"
+"1.81"
+"2.02"
+"2.24"
+"2.50"
+"2.75"
+"2.75"
+"2.75"
+"2.75"
+"2.75"
+"2.75"
+"2.75"
+"2.75"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(August 2015 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.be-wind.com
+
+This turbine consists of two VAWTs mounted next to one another with an upstream deflector plate. Each VAWT has a diameter of 1 metre and a height of 2.5 metres. For the purposes of this program, the total frontal area of the turbines is taken to be 5 square metres which corresponds to a HAWT with a diameter of 2.5 metres. 
+
+The turbine is apparently self-starting.
+
+The power curve here is from a manufacturer's graph. The design is an unusal one with the two VAWTs but, even so, the efficiency figures seem very high. 
+
+The annual energy outputs (AEP) in kWh from the manufacturer's leaflet are in close agreement with the estimates given from the present program and the small differences of a few percent could due to digitising errors from the manufacturer's power curve."

@@ -1,0 +1,50 @@
+"C&F Green Energy CF20 12.8m 20kW (MCS certification trial)"
+"13"
+"1"
+"25"
+"2.5"
+"0"
+"0"
+"0.51"
+"1.30"
+"2.95"
+"5.55"
+"8.50"
+"12.65"
+"17.48"
+"20.24"
+"20.56"
+"20.75"
+"20.47"
+"20.57"
+"20.58"
+"20.84"
+"20.82"
+"21.30"
+"21.00"
+"21.00"
+"21.00"
+"21.00"
+"21.00"
+"21.00"
+"21.00"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(July 2012 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.cfgreenenergy.com
+
+Irish 3-bladed upwind direct drive turbine with cup anemometer providing wind speed and direction data for a yaw motor to  keep the turbine pointing upwind. Speed and power is by blade pitch control. There is a back-up hydraulic brake.
+
+The turbine is monitored and controlled by an internet connection.
+
+Single or three phase outputs.
+
+IEC Class III - mean wind speed of 7.5 m/s.
+
+Power curve is from UK MCS certification report by Intertek, Ballyspellan, Ireland with a three phase 230V AC output. The certificate data extends only up 18 m/s and so has been extended at a constant level up to 25 m/s.
+
+The measured annual energy production (AEP) in the certification report differ from those obtained from the present program by about 1% - which is not significant.
+"

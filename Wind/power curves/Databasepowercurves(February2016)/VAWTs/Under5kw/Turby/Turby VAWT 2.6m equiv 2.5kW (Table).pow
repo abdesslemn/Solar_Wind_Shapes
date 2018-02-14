@@ -1,0 +1,51 @@
+"Turby VAWT 2.6m equiv 2.5kW (Report table)"
+"2"
+"6"
+"14"
+"3.5"
+"0"
+"0"
+"0"
+"0.006"
+"0.056"
+"0.155"
+"0.310"
+"0.527"
+"0.812"
+"1.171"
+"1.659"
+"2.136"
+"2.50"
+"2.50"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(January 2012 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.turby.nl
+
+This 3-bladed VAWT is similar to a Darrieus VAWT
+
+Rotot diameter 2m. Height 2.65
+
+It is not self-starting and uses the generator as a motor to start it up at around 4 m/s.
+
+Output is 220-240volt at 50Hz.
+
+Rotor braking is achieved by short circuiting the generator.
+
+Tower heights from 5m to 9m.
+
+Power curve was obtained from a Catalogue of European Urban Wind Turbine Manufacturers. No details of how the power curve was obtained aare given and it is very different from power curve in manufacturer's leaflet. The efficiencies at higher wind speeds seem too high and the predicted energy outputs are much higher than those found in field trials in Zeeland, Holland."

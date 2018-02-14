@@ -1,0 +1,51 @@
+"C&F Green Energy CF11 9m 11kW (MCS certification data))"
+"9"
+"4"
+"25"
+"2.5"
+"0"
+"0"
+"0.02"
+"0.56"
+"1.43"
+"2.64"
+"4.28"
+"6.37"
+"8.66"
+"10.5"
+"11.02"
+"11.10"
+"11.08"
+"11.03"
+"10.87"
+"11.0"
+"11.0"
+"11.00"
+"11.00"
+"11.00"
+"11.0"
+"11.00"
+"11.00"
+"11.00"
+"11.0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(July 2012 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.cfgreenenergy.com
+
+Irish 3-bladed upwind turbine with cup anemometer providing wind speed and direction data for a yaw motor to  keep the turbine pointing upwind. Speed and power is by blade pitch control. There is a back-up hydraulic brake.
+
+The turbine is monitored and controlled by an internet connection.
+
+Single or three phase outputs.
+
+IEC Class III - mean wind speed of 7.5 m/s.
+
+Power curve is from UK MCS certification report by Intertek, Ballyspellan, Ireland with a single phase 230V AC output. Data from certification trail was available only up to 18 m/s so data has been extended at a constant value up to 25 m/s.
+
+The measured annual energy production (AEP) in the certification report are within about 1% of those predicted by the WindPower program.
+
+"

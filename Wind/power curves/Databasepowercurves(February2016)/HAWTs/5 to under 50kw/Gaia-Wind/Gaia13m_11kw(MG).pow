@@ -1,0 +1,49 @@
+"Gaia 13m 11kw (Manufacturer's graph)"
+"13"
+"0"
+"25"
+"3"
+"0"
+"0"
+"0"
+"1.10"
+"2.80"
+"5.00"
+"7.30"
+"8.90"
+"10.40"
+"11.40"
+"11.79"
+"11.40"
+"10.96"
+"10.07"
+"9.35"
+"8.96"
+"8.96"
+"8.80"
+"8.47"
+"8.08"
+"7.75"
+"7.47"
+"7.19"
+"6.81"
+"6.42"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(March 2012 notes  - check for manufacturer's updates if the notes are more than about six months old)
+www.gaia-wind.co.uk or .com
+
+Two-bladed turbine with cut-out speed controlled by a mechanical brake.
+
+Price guide  (UK) £45,000 to £50,000 on 18 metre mast
+
+This turbine has been given UK MCS certificate number 1408 but the certificate details are not available from their website. The efficiencies are reasonable and the power curve looks plausible. The power values are actually below the values obtained in a US NERL test carried out to IEC 61400 standards. This seems to be a turbine with an understated performance by the manufacturer.
+
+The annual energy output figures from the manufacturer's website - obtained from the MCS certification data - are less by about 10% than those obtained from the present power curve. This suggests that the power curve is slightly pessimistic compared with the MCS power curve. The comparison is shown below.
+5 m/s MCS data                 27,502 kWh
+         WindPower  Program 31,356 kWh
+7 m/s MCS data                  46,527 kWh
+          WindPower Program 51,925 kWh"

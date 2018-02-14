@@ -1,0 +1,45 @@
+"Endurance S-343 6.4m 5Kw (Manufacturer's table)"
+"6"
+"4"
+"24"
+"4"
+"0"
+"0"
+"0"
+"0"
+"0.533"
+"1.199"
+"2.201"
+"3.258"
+"4.146"
+"4.79"
+"5.219"
+"5.424"
+"5.331"
+"4.919"
+"4.350"
+"3.826"
+"3.472"
+"3.027"
+"2.70"
+"2.40"
+"2.10"
+"1.80"
+"1.50"
+"1.20"
+"0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(Jan 2011 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.endurancewindpower.com
+
+3-bladed upwind turbine with tail fin. Power regulation by stall control but mechanical brake to stop the turbine.
+
+Manufacturer's table extends only to 18 m/s so the values from 19 to 25 m/s have been extraploated downwards to reflect stall control.
+
+No details given about testing procedure to obtain power curve but power coefficients (efficiencies) are quite plausible for a turbine of this size.
+
+The annual energy production figures agree closely with the figures calculated by the WindPower program."

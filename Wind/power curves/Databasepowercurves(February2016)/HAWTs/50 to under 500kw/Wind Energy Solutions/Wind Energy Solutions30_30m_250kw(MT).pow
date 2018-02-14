@@ -1,0 +1,45 @@
+"WES30 30m 250kw (Manufacturer's table)"
+"30"
+"0"
+"25"
+"2.5"
+"0"
+"0"
+"1.0"
+"4.4"
+"14.9"
+"29.3"
+"56.3"
+"77.2"
+"116.0"
+"145.0"
+"179.0"
+"222.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"250.0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(Oct 2010 notes - check for manufacturer's updates if the notes are more than about six months old)
+http://www.windenergysolutions.nl/
+
+Dutch 2-blade wind turbine with speed and overload control via a mechanical blade pitch system. 
+
+The power curve has apparently been measured by an independent organisation - Energy Research Centre of the Netherlands. It is therefore probably an accurate power curve and the efficiencies are certainly quite plausible with a peak value of around 35%.
+
+Further confirmation of the relaibility of the data is that annual energy production calculations obtained from their webiste agree well with those obtained from the present program.
+
+Prices excluding VAT are around £500,000 on a 39 metre tower."

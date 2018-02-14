@@ -1,0 +1,47 @@
+"Endurance E-3120 19.2m 50Kw (Manufacturer's table)"
+"19"
+"2"
+"25"
+"3.5"
+"0"
+"0"
+"0"
+"2.2"
+"8.1"
+"15.2"
+"24.8"
+"35.8"
+"43.8"
+"50.9"
+"54.8"
+"57.3"
+"59.3"
+"59.3"
+"58.6"
+"57.1"
+"54.9"
+"51.4"
+"50"
+"50"
+"50"
+"50"
+"50"
+"50"
+"50"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(Jan 2011 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.endurancewindpower.com
+
+3-bladed downwind turbine. Power regulation by blade stall control but dual mechanical brakes to stop the turbine.
+
+Tower heights from 30m to 40m but 24m and 36.5m only in the UK.
+
+Manufacturer's table extends only to 18 m/s so the values from 19 to 25 m/s have been taken as constant at 50kW.
+
+No details given about testing procedure to obtain power curve but power coefficients (efficiencies) are quite plausible for a turbine of this size.
+
+The manufacturer's annual energy production figures agree closely with the figures calculated by the WindPower program."

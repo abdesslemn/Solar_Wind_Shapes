@@ -1,0 +1,45 @@
+"Endurance G-3120 19.2m 35Kw (Manufacturer's table)"
+"19"
+"2"
+"25"
+"3.5"
+"0"
+"0"
+"0"
+"0"
+"8.1"
+"15.2"
+"24.8"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"35.0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(Jan 2011 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.endurancewindpower.com
+
+3-bladed downwind turbine. Power regulation by resistive power dump but dual mechanical brakes to stop the turbine.
+
+Manufacturer's table extends only to 18 m/s so the values from 19 to 25 m/s have been taken as constant at 35kW.
+
+No details given about testing procedure to obtain power curve but power coefficients (efficiencies) are quite plausible for a turbine of this size.
+
+The annual energy production figures agree closely with the figures calculated by the WindPower program."

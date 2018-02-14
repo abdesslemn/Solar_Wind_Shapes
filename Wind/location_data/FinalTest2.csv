@@ -1,0 +1,2 @@
+project name,zone,state,latitude,longitude,ac capacity (mw),energy (mwh),share,turbine name,hub height (m),offshore
+ProjectTest,ZoneTest,CA,40,-100,32,80000,1,,80,FALSE

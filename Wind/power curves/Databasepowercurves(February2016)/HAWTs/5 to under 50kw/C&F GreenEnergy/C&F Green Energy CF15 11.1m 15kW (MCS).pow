@@ -1,0 +1,49 @@
+"C&F GreenEnergy CF15 11.1m 15kw (MCS certification)"
+"11"
+"1"
+"25"
+"2"
+"0"
+"0"
+"0.30"
+"0.98"
+"2.10"
+"3.55"
+"5.37"
+"7.78"
+"11.02"
+"14.38"
+"15.30"
+"15.14"
+"15.50"
+"15.82"
+"16.07"
+"16.03"
+"15.75"
+"16.32"
+"16.0"
+"16.0"
+"16.0"
+"16.0"
+"16.0"
+"16.0"
+"16.0"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(July 2012 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.cfgreenenergy.com
+
+Irish 3-bladed upwind direct drive turbine with cup anemometer providing wind speed and direction data for a yaw motor to  keep the turbine pointing upwind. Speed and power is by blade pitch control. There is a back-up hydraulic brake. The turbine can produce either a single or a three phase output.
+
+The turbine is monitored and controlled by an internet connection.
+
+Single or three phase outputs.
+
+IEC Class III - mean wind speed of 7.5 m/s.
+
+Power curve is from UK MCS certification report by Intertek, Ballyspellan, Ireland with a three phase 230V AC output. Data from the trial was available up to 18 m/s and has been extended at a constant value up to 25 m/s.
+
+The measured annual energy production (AEP) in the certification report are  less by about 10% than those obtained from the present program. It is not clear why this should be so but it is possible that the wind charactersitics at the testing site were less variable than the standard Rayleigh distribution of 52% (i.e. k-2)."

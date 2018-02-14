@@ -1,0 +1,48 @@
+"C&F Green Energy CF6e 8m 6kW (Manufacturer's graph)"
+"8"
+"0"
+"25"
+"2"
+"0"
+"0"
+"0.32"
+"0.75"
+"1.48"
+"2.50"
+"3.98"
+"5.92"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"6.00"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(July 2012 notes -  - check for manufacturer's updates if the notes are more than about six months old)
+www.cfgreenenergy.com
+
+Irish 3-bladed upwind turbine with cup anemometer providing wind speed and direction data for a yaw motor to  keep the turbine pointing upwind. Speed and power is by blade pitch control and there is no cut-out speed. There is a back-up electro-mechanical brake.
+
+The turbine is monitored and controlled by an internet connection.
+
+No information is given about how the power curve was obtained but the power coefficients (i.e. efficiencies) are perhaps a little too high but they are not completely unreasonable for a turbine of this size.
+
+The manufacturer's pamphlet gives annual energy figures which are about 5-10% less than those given by this program so that the manufacturer's performance claims seem reasonable. Examples of C&F's annual energy figures are:-
+5m/s  17,065 kw-hrs (cf. 18,049 kw-hrs)
+8m/s  29,905 kw-hrs (cf. 33,607 kw hrs)
+The figures in brackets are from the WindPower program - see figures below."

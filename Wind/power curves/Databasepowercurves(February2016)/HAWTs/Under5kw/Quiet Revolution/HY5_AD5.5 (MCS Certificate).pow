@@ -1,0 +1,44 @@
+"Zhejiang Huaying HY5-AD5.6 5.6m 5kW (MCS Certification)"
+"5"
+"6"
+"25"
+"3.5"
+"0"
+"0"
+"0"
+"0.21"
+"0.62"
+"1.12"
+"1.74"
+"2.53"
+"3.34"
+"3.69"
+"4.05"
+"4.14"
+"4.18"
+"4.27"
+"4.50"
+"4.68"
+"4.69"
+"4.37"
+"4.77"
+"4.31"
+"4.85"
+"0"
+"4.75"
+"0"
+"4.39"
+"0"
+"0"
+"0"
+"0"
+"0"
+"(May 2013 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.quietrevolution.com
+
+This Chinese 3-bladed variable pitch 
+downwind turbine is marketed in the UK by QuietRevolution. Electronic power control is started at 13 m/s and there is no cut-out speed.
+
+It has received MCS certification and the power curve is taken from the test report. There is no comment in the report about the zero power output values at 22m/s and 24m/s and so it is not clear if these are errors or some idiosyncrasy of the electronic control system.
+
+The mean power estimates from the MCS report are very close to the values obtained from this program."

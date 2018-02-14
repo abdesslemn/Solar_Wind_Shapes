@@ -1,0 +1,55 @@
+"Kingspan KW3 3.8m 2.5kW (Bettergeneration website graph)"
+"3"
+"8"
+"30"
+"3"
+"0"
+"0"
+"0"
+"0.078"
+"0.217"
+"0.459"
+"0.81"
+"1.20"
+"1.49"
+"1.84"
+"2.13"
+"2.41"
+"2.58"
+"2.70"
+"2.83"
+"2.90"
+"2.90"
+"2.89"
+"2.78"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"2.76"
+"(July 2012 notes - check for manufacturer's updates if the notes are more than about six months old)
+www.kingspanwind
+
+3-bladed downwind turbine that was originally called the Proven 2.5 but it is now marketed by a company called Kingspan. The rotor diameter has been increased from 3.5m to 3.8m - see below.
+
+There is no cut-out speed and power regulation is achieved by a blade hinge mechanism that allows the blades to deflect downwind in strong winds.
+
+The turbine is capable of supplying 1, 2 or 3 phase outputs for connection to the grid.
+
+Tower heights range from 6.5 to 11 metres.
+
+The power curve was obtained from www.bettergeneration.com and is supposedly the curve obtained from the UK Microgeneration Certificate test for the Proven 2.5. Kingspan do not give the power curve in their leaflets.
+
+Kingspan provide a graph of annual energy output.
+The figures below give their data against mean wind speed. The data from the present program is in brackets.
+5m/s 4700kWh (3860kWh)
+7m/s 9620kwh (8156kwh)
+9m/s 13624kwh (12002kwh)
+The claimed annual energy production is somewhat greater than that predicted from the present program particularly at 5 m/s. Without direct access to the Kingspan power curve, it is not possible to account for the difference but the rotor diameter of the KW3 is 3.8m as against the 3.5m of the Proven 2.5. Thus, an increase in annual energy output of around 15% is feasible.
+"
