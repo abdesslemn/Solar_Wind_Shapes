@@ -54,22 +54,21 @@ import load_data
 # WARNING: make sure timezone assumptions are consistent! (see line 55, 319)
 
 # User inputs
-START_YEAR = 2007
-END_YEAR = 2010
-RESOLUTION = 60 # RESOLUTION of the WTK data in min
-timezone = 0 # timezone vs. UTC (e.g. -8 = PST, -5 = EST). ASSUMES THAT WTK DATA IS IN UTC.
+start_year = 2007
+end_year = 2007
+resolution = 60     # resolution of the WTK data in min
+timezone = 0        # timezone vs. UTC (e.g. -8 = PST, -5 = EST). ASSUMES THAT WTK DATA IS IN UTC.
 # DOUBLE CHECK THAT IT IS! #NOTE_TO_SELF: Is this checked yet?
-MAX_DISTANCE = 50 # max distance in miles for grabbing toolkit sites
-minimum_capacity_factor = .20
+MAX_DISTANCE = 50   # max distance in miles for grabbing toolkit sites
+MIN_CAP_FACTOR = .20
 
-# toggles
+# toggles 
 include_date = True # include column with data index (triples file size)
 output_project_shapes = True # output individual project shapes (vs. only aggregate shapes)
 adjust_for_energy_shortage = False # True: adjust final aggregated profile for energy shortage
 # (added 31/05/16 - slightly buggy still)
 scale_to_energy = False # if true, wind farm shape is scaled to meet energy target.
 # If False, shape will meet capacity target
-
 exclude_certain_ids = False # to exclude certain WTK ids
 # (e.g. for future wind data you want to look at the remaining IDs after running CA/common case)
 
@@ -82,22 +81,8 @@ output_WTK_RT = False # True: write out csvs of the direct wind toolkit power ou
 # (to compare with our calculated output that is based on WTK wind)
 
 # parameters
-miles_to_degree = 69. # degree latitude
-measure_height = 100 # measure height of the wind speed data in WTK
-stability_coefficient = 0.143 # wind shear exponent for adjusting wind speed by hub height based on power law fit
-# NOTE_TO_SELF: Make choice of onshore or offshore and choose stab_coeff appropriately
-'''
- Wind profile power law:
- 
- u / u_0 = (z / z_0) ^ alpha 
- 
- where 
- u = wind velocity
- z = height
- _0 = reference
- alpha = stability coefficient = 0.143 for onshore and 0.11 for offshore 
+MILES_TO_DEGREE = 69.           # degree latitude
 
-'''
 # directory structure inputs
 directory = os.getcwd()
 profile_dir = os.path.join(directory,'generation_profiles')
@@ -170,13 +155,13 @@ def correct_wind_time(array, nperiods):
 # ---------------------- Power Curve Functions  ------------------------------#
 
 
-def wind_calc(wind_speed, density, measure_height, hub_height, tck, cutout, n_turbines=1, \
+def wind_calc(wind_speed, density, measure_hub_height_wtk, hub_height, tck, cutout, n_turbines=1, \
               stability_coefficient=0.143, hysteresis=True, dens_adj = True):
     """
     Calculates power output for array of wind_speed values, inputs:
         wind_speed: numpy array with wind speeds (m/s)
         density: numpy array with densities (kg/m3)
-        measure_height: int, height at which wind speed and density is measured (m)
+        measure_hub_height_wtk: int, height at which wind speed and density is measured (m)
         hub_height: int, height of wind turbine hub (m)
         tck: spline interpolation of power curve
         cutout: int, cutout windspeed (m/s)
@@ -187,7 +172,7 @@ def wind_calc(wind_speed, density, measure_height, hub_height, tck, cutout, n_tu
     """
 
     # Adjust wind speed for hub height, see Reference Manual for SAM Wind Power Performance Model, p26-27
-    adjusted_wind_speed = wind_speed * (float(hub_height)/measure_height)**stability_coefficient
+    adjusted_wind_speed = wind_speed * (float(hub_height)/measure_hub_height_wtk)**stability_coefficient
 
     # Adjust wind speed for wake losses, see WIND Toolkit - Applied energy - Final, p5/p358
     n_turbines_wake = min(n_turbines,8) # limit turbines to 8 for wind adjustment calculation
@@ -234,12 +219,12 @@ def wind_calc(wind_speed, density, measure_height, hub_height, tck, cutout, n_tu
 ################################################################################
 
 # ------ Set up list of years and dates --------------------------------------#
-if RESOLUTION == 60:
-    dates = pd.date_range(start=pd.datetime(START_YEAR,1,1,0),end=pd.datetime(END_YEAR,12,31,23),freq='H')
-elif RESOLUTION == 5:
-    dates = pd.date_range(start=pd.datetime(START_YEAR,1,1,0),end=pd.datetime(END_YEAR,12,31,23,55),freq='5Min')
+if resolution == 60:
+    dates = pd.date_range(start=pd.datetime(start_year,1,1,0),end=pd.datetime(end_year,12,31,23),freq='H')
+elif resolution == 5:
+    dates = pd.date_range(start=pd.datetime(start_year,1,1,0),end=pd.datetime(end_year,12,31,23,55),freq='5Min')
 else:
-    sys.exit("Please check RESOLUTION")     # Throw exception and exit if RESOLUTION not 5 or 60
+    sys.exit("Please check resolution")     # Throw exception and exit if resolution not 5 or 60
 
 # ---- Create Dictionary of turbines mapped to a tuple of turbine power curves, cut out and max power ---- #
 # NOTE_TO_SELF: Tuples are ordered whereas sets are not
@@ -333,7 +318,7 @@ for case in cases:
             wind_by_zone[zone] = np.zeros(len(dates))    # initializes a list as a value
             # NOTE_TO_SELF: Is dict the best class to use for wind_by_zone?
 
-        if share==0 or target_energy==0:        # NOTE_TO_SELF: if !(share and target_energy)
+        if not (share and target_energy):
             continue
 
         # initialize results
@@ -376,7 +361,7 @@ for case in cases:
             if distance[toolkit_id]>MAX_DISTANCE:
                 break # get out of for loop of wind toolkit ids as soon as you go over max distance
                 # (in this case enough_sites flag will be false and there will be an energy shortage recorded)
-            if toolkit_id in used_ids or site_cap_factor < minimum_capacity_factor:
+            if toolkit_id in used_ids or site_cap_factor < MIN_CAP_FACTOR:
                 continue # if toolkit id already used, skip this one and go to next
             if (NREL_turbine_type == 'NREL_offshore' and not offshore) or (NREL_turbine_type != 'NREL_offshore' and offshore):
                 continue # if offshore status of toolkit id does not match project's, skip
@@ -384,8 +369,8 @@ for case in cases:
 
             # Read in or download toolkit data for the site of interest (if available)
             data = []
-            for year in np.arange(START_YEAR, END_YEAR + 1):
-                temp_data, metadata = load_data.get_wtk_data(year, toolkit_id, site_lat, site_lon, wtk_data_dir, interval= RESOLUTION)
+            for year in np.arange(start_year, end_year + 1):
+                temp_data, metadata = load_data.get_wtk_data(year, toolkit_id, site_lat, site_lon, wtk_data_dir, interval= resolution)
                 # NOTE_TO_SELF: If not using metadata, remove it?
                 # WARNING: defaults to UTC = false, so if you want data in UTC, make it true!
                 data.append(temp_data)
@@ -393,12 +378,31 @@ for case in cases:
 
             wind_speed = data['wind speed at 100m (m/s)'].values
             density = data['density at hub height (kg/m^3)'].values
+            measure_hub_height_wtk = 100  # measure height of the wind speed data in WTK
+
+            '''
+             Wind profile power law:
+
+             u / u_0 = (z / z_0) ^ alpha 
+
+             where 
+             u = wind velocity
+             z = height
+             _0 = reference
+             alpha = stability coefficient = 0.143 for onshore and 0.11 for offshore 
+
+            '''
+            if offshore:
+                stability_coefficient = 0.11
+            else:
+                stability_coefficient = 0.134
+
             if use_NREL_power or use_NREL_power_temp:
                 power = data['power (MW)']
                 adjusted_wind_speed = wind_speed
             else:
-                (adjusted_wind_speed, power) = wind_calc(wind_speed, density, measure_height, hub_height, tck, cutout,
-                                                         n_turbines, stability_coefficient = 0.143,
+                (adjusted_wind_speed, power) = wind_calc(wind_speed, density, measure_hub_height_wtk, hub_height, tck, cutout,
+                                                         n_turbines, stability_coefficient = stability_coefficient,
                                                          hysteresis=True, dens_adj=False)
             id_energy = power.mean() * 8766
             # NOTE_TO_SELF: This is better than adding because it takes care of average year (leap and non-leap)
@@ -407,7 +411,7 @@ for case in cases:
                 # Update state variables and break out of loop if needed
                 if (energy+id_energy) >= target_energy and energy:
                     enough_sites = True
-                    print 'Reached required energy of ' + target_energy
+                    print 'Reached required energy of ' + str(target_energy) + ' MWh'
                     if abs(target_energy - (energy + id_energy)) < abs(target_energy - energy):
                         # check whether adding the last toolkit id brings us closer to target or not. If yes, add it too
                         # NOTE_TO_SELF: Why is this check even needed?
@@ -433,7 +437,7 @@ for case in cases:
                 # Update state variables and break out of loop if needed
                 if (capacity+site_capacity) >= target_capacity and capacity:
                     enough_sites = True
-                    print 'Reached required capacity of ' + target_capacity
+                    print 'Reached required capacity of ' + str(target_capacity) + ' MW'
                     if abs(target_capacity-(capacity+site_capacity)) < abs(target_capacity - capacity):
                         # NOTE_TO_SELF: Is this what we want? (If target = 20 and site = 16, this takes only 1 site)
                         # check whether adding the last toolkit id brings us closer to target or not. If yes, add it too
@@ -503,11 +507,11 @@ for case in cases:
 
                 tag = '_WTK' if _tag == 'WTK' else ''
 
-                if START_YEAR != END_YEAR:
-                    filename = '_'.join([project_name+tag,str(START_YEAR),str(END_YEAR)]) + '.csv'
+                if start_year != end_year:
+                    filename = '_'.join([project_name+tag,str(start_year),str(end_year)]) + '.csv'
                     # NOTE_TO_SELF: This is a nifty way to name files
                 else:
-                    filename = '_'.join([project_name+tag,str(START_YEAR)]) + '.csv'
+                    filename = '_'.join([project_name+tag,str(start_year)]) + '.csv'
                 filepath = os.path.join(profile_dir,case_name,filename)
 
                 if _tag == 'WTK' and not output_WTK_RT:
@@ -537,19 +541,19 @@ for case in cases:
         if include_date:
             df.index = dates
             df.index.name = 'date (tz = ' + str(timezone) + ')'
-        if START_YEAR != END_YEAR:
-            filename = '_'.join(['aggregation',zone,str(START_YEAR),str(END_YEAR)]) + '.csv'
+        if start_year != end_year:
+            filename = '_'.join(['aggregation',zone,str(start_year),str(end_year)]) + '.csv'
         else:
-            filename = '_'.join(['aggregation',zone,str(START_YEAR)]) + '.csv'
+            filename = '_'.join(['aggregation',zone,str(start_year)]) + '.csv'
 
         filepath = os.path.join(profile_dir,case_name,filename)
         df.to_csv(filepath,index=include_date)
 
     # Write out aggregated outputs: full aggregation
-    if START_YEAR != END_YEAR:
-        filename = '_'.join(['aggregation_all_zones',str(START_YEAR),str(END_YEAR)]) + '.csv'
+    if start_year != end_year:
+        filename = '_'.join(['aggregation_all_zones',str(start_year),str(end_year)]) + '.csv'
     else:
-        filename = '_'.join(['aggregation_all_zones',str(START_YEAR)]) + '.csv'
+        filename = '_'.join(['aggregation_all_zones',str(start_year)]) + '.csv'
 
     sum_case_wind = np.sum([wind_by_zone[zone] for zone in wind_by_zone.keys()], axis = 0)
     df_all_hourly = pd.DataFrame({'output (MW)': sum_case_wind})

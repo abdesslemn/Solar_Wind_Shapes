@@ -123,6 +123,7 @@ def get_wtk_data(year,
         # if interval == 60:
         #    df.drop(['Minute'],axis=1,inplace=True)
         df_hourly.to_csv(wtk_hourly_filepath)
+        df = df.resample(time_int).mean()
     else: 
         print 'found local wtk data for toolkit_id... ' + str(toolkit_id) + ', year ' + str(year) +  '!'
         df = pd.read_csv(wtk_5min_filepath, index_col=0, parse_dates=True)
